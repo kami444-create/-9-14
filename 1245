@@ -2,7 +2,7 @@
 #include <cmath> // математические функции (abs)
 using namespace std; // Стандартное пространство имён
 
-int main() 
+int main() // Начало 
 {
     double x, y; // Координаты точки
 
