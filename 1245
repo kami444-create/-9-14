@@ -1,6 +1,5 @@
 #include <iostream> // Библиотека ввода‑вывода
 #include <cmath> // Библиотека математических функций (abs)
-
 using namespace std; // Стандартное пространство имён
 
 int main() 
