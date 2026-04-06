@@ -1,17 +1,24 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
+#include <iostream> // Библиотека ввода‑вывода
+#include <cmath> // Библиотека математических функций (abs)
 
-int main() {
-    double x, y;
-    cin >> x >> y;
+using namespace std; // Стандартное пространство имён
 
-    if (y > abs(x))
-        cout << "Да";
-    else if (y == abs(x))
-        cout << "На границе";
-    else
-        cout << "Нет";
+int main() 
+{
+    double x, y; // Координаты точки
 
-    return 0;
+    cin >> x >> y; // Ввод x и y
+
+    if (y > abs(x)) 
+{
+        cout << "Да"; // Точка выше границы (y > |x|)
+    }
+    else if (y == abs(x)) 
+{
+        cout << "На границе";  // Точка на границе (y = |x|)
+    }
+    else {
+        cout << "Нет";  // Точка ниже границы (y < |x|)
+    }
+return 0;  // Успешное завершение
 }
